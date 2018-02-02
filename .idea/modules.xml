@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presentationlayer/presentationlayer.iml" filepath="$PROJECT_DIR$/presentationlayer/presentationlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectzero.iml" filepath="$PROJECT_DIR$/projectzero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restAPI/restAPI.iml" filepath="$PROJECT_DIR$/restAPI/restAPI.iml" />
+    </modules>
+  </component>
+</project>

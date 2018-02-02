@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@35.205.41.45">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="USUARI">
+      <ObjectId>49</ObjectId>
+      <IntrospectionTimestamp>2018-02-02.18:48:36</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="GESTIO">
+      <ObjectId>50</ObjectId>
+      <IntrospectionTimestamp>2018-02-02.18:48:42</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-11-15.18:02:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-26.14:54:04</ModifiedTimestamp>
+      <CommentsHash>30079800186649</CommentsHash>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="20" parent="1" name="EXAMEN">
+      <ObjectId>52</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="22" parent="19" name="SEQ_FAC">
+      <ObjectId>25327</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:14:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="19" name="SEQ_IMG">
+      <ObjectId>25330</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:31:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:29</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="19" name="SEQ_OPI">
+      <ObjectId>25334</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:31:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="19" name="SEQ_RES">
+      <ObjectId>25333</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:31:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="19" name="SEQ_TCK">
+      <ObjectId>25326</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:14:19</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="27" parent="19" name="SEQ_TRS">
+      <ObjectId>25332</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:31:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="28" parent="19" name="SEQ_USU">
+      <ObjectId>25331</ObjectId>
+      <CreatedTimestamp>2018-01-08.08:31:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-08.08:32:30</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="29" parent="19" name="FACTURES">
+      <ObjectId>20413</ObjectId>
+      <Comment>Factures</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="19" name="IMATGES">
+      <ObjectId>20416</ObjectId>
+      <CreatedTimestamp>2017-11-15.18:02:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="31" parent="19" name="IMPOSTS">
+      <ObjectId>20421</ObjectId>
+      <Comment>Imposts</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:26</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="19" name="IMPXLTCK">
+      <ObjectId>20423</ObjectId>
+      <CreatedTimestamp>2017-11-15.18:02:26</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="19" name="LTICKETS">
+      <ObjectId>20426</ObjectId>
+      <Comment>Linies de tickets</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:27</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="34" parent="19" name="OPINIONS">
+      <ObjectId>20428</ObjectId>
+      <Comment>Opinions</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:27</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-26.14:54:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="19" name="RESTAURANTS">
+      <ObjectId>20432</ObjectId>
+      <Comment>Clients</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:28</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-18.17:32:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="36" parent="19" name="TICKETS">
+      <ObjectId>20435</ObjectId>
+      <Comment>Tickets</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:28</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="37" parent="19" name="TRESTAURANTS">
+      <ObjectId>20439</ObjectId>
+      <Comment>Tipus de clients</Comment>
+      <CreatedTimestamp>2017-11-15.18:02:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-15.18:04:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="19" name="USUARIS">
+      <ObjectId>20441</ObjectId>
+      <CreatedTimestamp>2017-11-15.18:02:29</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-26.14:51:32</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="39" parent="29" name="FAC_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="29" name="FAC_DATA_FACTURA">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="29" name="FAC_TOTAL_A_PAGAR">
+      <Position>3</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="29" name="FAC_RES_CODI">
+      <Position>4</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="43" parent="29" name="FAC_FACTURES_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:25</ModifiedTimestamp>
+      <ColNames>FAC_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>FACTURES_FAC_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="44" parent="29" name="FAC_FACTURES_RESTAURANTS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>FAC_RES_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>RESTAURANTS</RefTableName>
+      <RefKeyName>RES_RESTAURANTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="45" parent="30" name="IMG_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="30" name="IMG_PATH">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="47" parent="30" name="IMG_IMATGE">
+      <Position>3</Position>
+      <DataType>BLOB|0</DataType>
+    </column>
+    <column id="48" parent="30" name="IMG_RES_CODI">
+      <Position>4</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="49" parent="30" name="IMG_IMATGES_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:26</ModifiedTimestamp>
+      <ColNames>IMG_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>IMATGES_IMG_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="30" name="IMG_IMATGES_RESTAURANTS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>IMG_RES_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>RESTAURANTS</RefTableName>
+      <RefKeyName>RES_RESTAURANTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="51" parent="31" name="IMP_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="31" name="IMP_DESCRIPCIO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="31" name="IMP_PERCENTATGE">
+      <Position>3</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="54" parent="31" name="IMP_IMPOSTS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:26</ModifiedTimestamp>
+      <ColNames>IMP_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>IMPOSTS_IMP_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="32" name="ILT_TCK_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="32" name="ILT_LTK_CODI">
+      <Position>2</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="32" name="ILT_IMP_CODI">
+      <Position>3</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="32" name="ILT_BASE">
+      <Position>4</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="59" parent="32" name="ILT_IMP_LTK_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:27</ModifiedTimestamp>
+      <ColNames>ILT_TCK_CODI
+ILT_LTK_CODI
+ILT_IMP_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>IMPXLTCK_TCK_IMP_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="60" parent="32" name="ILT_IMP_LTK_LTICKETS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>ILT_TCK_CODI
+ILT_LTK_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>LTICKETS</RefTableName>
+      <RefKeyName>LTK_LTICKETS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="61" parent="32" name="ILT_IMP_LTK_IMPOSTS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>ILT_IMP_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>IMPOSTS</RefTableName>
+      <RefKeyName>IMP_IMPOSTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="62" parent="33" name="LTK_TCK_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="33" name="LTK_CODI">
+      <Position>2</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="33" name="LTK_DESCRIPCIO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="33" name="LTK_UNITATS">
+      <Position>4</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="33" name="LTK_TOTAL_UNITARI">
+      <Position>5</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="67" parent="33" name="LTK_LTICKETS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:27</ModifiedTimestamp>
+      <ColNames>LTK_TCK_CODI
+LTK_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LTICKETS_LTK_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="33" name="LTK_LTICKETS_TICKETS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>LTK_TCK_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>TICKETS</RefTableName>
+      <RefKeyName>TCK_TICKETS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="69" parent="34" name="OPI_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="34" name="OPI_OBSERVACIO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(3000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="34" name="OPI_PUNTUACIO">
+      <Position>3</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="34" name="OPI_OPINIO_REVISADA">
+      <Position>4</Position>
+      <DataType>VARCHAR2(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="34" name="OPI_RES_CODI">
+      <Position>5</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="34" name="OPI_USU_CODI">
+      <Position>6</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="75" parent="34" name="OPI_OPINIONS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:28</ModifiedTimestamp>
+      <ColNames>OPI_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>OPINIONS_OPI_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="76" parent="34" name="OPI_OPINIONS_RESTAURANTS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>OPI_RES_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>RESTAURANTS</RefTableName>
+      <RefKeyName>RES_RESTAURANTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="77" parent="34" name="OPI_OPINIONS_USUARIS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:31</ModifiedTimestamp>
+      <ColNames>OPI_USU_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>USUARIS</RefTableName>
+      <RefKeyName>USU_USUARIS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="78" parent="35" name="RES_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="35" name="RES_NOM">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="35" name="RES_ADRECA">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="35" name="RES_MITJANA">
+      <Position>4</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="82" parent="35" name="RES_LATITUD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="83" parent="35" name="RES_LONGITUD">
+      <Position>6</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="84" parent="35" name="RES_WEB">
+      <Position>7</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="85" parent="35" name="RES_TELEFON">
+      <Position>8</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="86" parent="35" name="RES_TRS_CODI">
+      <Position>9</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="35" name="RES_URL_IMG">
+      <Position>10</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <key id="88" parent="35" name="RES_RESTAURANTS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:28</ModifiedTimestamp>
+      <ColNames>RES_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>RESTAURANTS_RES_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="35" name="RES_REST_TREST_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:31</ModifiedTimestamp>
+      <ColNames>RES_TRS_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>TRESTAURANTS</RefTableName>
+      <RefKeyName>TRS_TRESTAURANTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="90" parent="36" name="TCK_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="36" name="TCK_DATA_TICKET">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="36" name="TCK_TOTAL_LTICKETS">
+      <Position>3</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="36" name="TCK_TOTAL_IMPOSTS">
+      <Position>4</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="36" name="TCK_FAC_CODI">
+      <Position>5</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+    </column>
+    <column id="95" parent="36" name="TCK_RES_CODI">
+      <Position>6</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="96" parent="36" name="TCK_TICKETS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:29</ModifiedTimestamp>
+      <ColNames>TCK_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TICKETS_TCK_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="97" parent="36" name="TCK_TICKETS_FACTURES_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:31</ModifiedTimestamp>
+      <ColNames>TCK_FAC_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>FACTURES</RefTableName>
+      <RefKeyName>FAC_FACTURES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="98" parent="36" name="TCK_TICKETS_RESTAURANTS_FK">
+      <ModifiedTimestamp>2017-11-15.18:02:31</ModifiedTimestamp>
+      <ColNames>TCK_RES_CODI</ColNames>
+      <RefSchemaName>GESTIO</RefSchemaName>
+      <RefTableName>RESTAURANTS</RefTableName>
+      <RefKeyName>RES_RESTAURANTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="99" parent="37" name="TRS_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="37" name="TRS_DESCRIPCIO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="101" parent="37" name="TRS_TRESTAURANTS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:29</ModifiedTimestamp>
+      <ColNames>TRS_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TRESTAURANTS_TRS_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="102" parent="38" name="USU_CODI">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="38" name="USU_PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(512)|0</DataType>
+    </column>
+    <column id="104" parent="38" name="USU_NOM">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="38" name="USU_ADRECA_ELECTRONICA">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="106" parent="38" name="USU_USUARIS_PK">
+      <ModifiedTimestamp>2017-11-15.18:02:30</ModifiedTimestamp>
+      <ColNames>USU_CODI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>USUARIS_USU_CODI_IDX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
