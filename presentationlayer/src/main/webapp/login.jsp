@@ -58,15 +58,9 @@
         <div class="container">
             <h1 class="display-3">Demana el que et demani el cos</h1>
             <h2>Menjar a domicili a prop de tu</h2>
-            <p><a class="btn btn-secondary btn-lg" href="test" role="button">Consultar més &raquo;</a></p>
         </div>
     </div>
 </main>
-
-
-
-
-
 
 <div class="form-group">
     <form action="log" method="post">
@@ -80,26 +74,7 @@
     </form>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <footer class="container">
     <p>&copy; Miquel Servera Julià 2017</p>
 </footer>

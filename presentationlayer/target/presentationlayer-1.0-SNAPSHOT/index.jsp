@@ -35,20 +35,45 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.jsp">Inici <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.jsp">Inici<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="login.jsp">
+                    <%
+                        if (session.getAttribute("sessio")!=null){
+                            out.println("Surtir");
+                            session.invalidate();
+                        } else {
+                            out.println("Login");
+                        }
+                    %>
+
+                    <span class="sr-only">(current)</span></a>
+            </li>
+
+
+            <li class="nav-item active">
+                <%
+                    String nomUsuari = (String) session.getAttribute("sessio");
+                    if (session.getAttribute("sessio")!=null){
+                        out.println("<a class=\"nav-link\">"+nomUsuari+"<span class=\"sr-only\">(current)</span></a>");
+                    }
+
+                %>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="login.jsp">Surtir<span class="sr-only">(current)</span></a>
             </li>
+
         </ul>
+
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" name="cerca" type="text" placeholder="Cercar" aria-label="Cercar">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cercar</button>
         </form>
     </div>
+
+
 </nav>
 
 <main role="main">
@@ -58,7 +83,6 @@
         <div class="container">
             <h1 class="display-3">Demana el que et demani el cos</h1>
             <h2>Menjar a domicili a prop de tu</h2>
-            <p><a class="btn btn-secondary btn-lg" href="test" role="button">Consultar més &raquo;</a></p>
         </div>
     </div>
 

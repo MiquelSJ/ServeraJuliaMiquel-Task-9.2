@@ -59,7 +59,6 @@
         <div class="container">
             <h1 class="display-3">Demana el que et demani el cos</h1>
             <h2>Menjar a domicili a prop de tu</h2>
-            <p><a class="btn btn-primary btn-lg" href="test" role="button">Consultar més &raquo;</a></p>
         </div>
     </div>
 
