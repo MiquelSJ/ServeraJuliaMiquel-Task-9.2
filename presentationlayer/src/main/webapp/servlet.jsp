@@ -26,6 +26,13 @@
 </head>
 <body>
 
+    <%
+    String surtir = request.getParameter("surtir");
+
+    if(surtir != null && surtir.equals("si"));
+    session.invalidate();
+%>
+
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="index.jsp">Restaurants</a>
@@ -38,6 +45,11 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.jsp">Inici <span class="sr-only">(current)</span></a>
             </li>
+
+
+
+
+
             <li class="nav-item active">
                 <a class="nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
             </li>

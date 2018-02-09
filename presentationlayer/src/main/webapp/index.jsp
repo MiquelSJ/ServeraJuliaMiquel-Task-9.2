@@ -40,29 +40,18 @@
             <li class="nav-item active">
                 <a class="nav-link" href="login.jsp">
                     <%
-                        if (session.getAttribute("sessio")!=null){
-                            out.println("Surtir");
-                            session.invalidate();
-                        } else {
-                            out.println("Login");
+                        String nomUsuari = (String) session.getAttribute("usuari");
+                        if (session.getAttribute("usuari")!=null){
+                            out.println("<p>Hola "+nomUsuari+"</p>");
                         }
+
                     %>
 
                     <span class="sr-only">(current)</span></a>
             </li>
 
-
             <li class="nav-item active">
-                <%
-                    String nomUsuari = (String) session.getAttribute("sessio");
-                    if (session.getAttribute("sessio")!=null){
-                        out.println("<a class=\"nav-link\">"+nomUsuari+"<span class=\"sr-only\">(current)</span></a>");
-                    }
-
-                %>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="login.jsp">Surtir<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="login.jsp?surtir=si">Surtir<span class="sr-only">(current)</span></a>
             </li>
 
         </ul>

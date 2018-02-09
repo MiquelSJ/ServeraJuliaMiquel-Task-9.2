@@ -28,6 +28,13 @@
 
 <body>
 
+<%
+    String surtir = request.getParameter("surtir");
+
+    if(surtir != null && surtir.equals("si"));
+    session.invalidate();
+%>
+
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="index.jsp">Restaurants</a>
@@ -63,7 +70,7 @@
 </main>
 
 <div class="form-group">
-    <form action="log" method="post">
+    <form action="log" method="POST">
     <label for="exampleInputEmail1">Usuari</label>
     <input name="usuari" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriu el teu nom d'usuari">
 
