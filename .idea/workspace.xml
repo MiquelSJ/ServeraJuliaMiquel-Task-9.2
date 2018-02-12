@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="863d0d0b-c69d-4aae-a049-b17f31166ef6" name="Default" comment="" />
+    <list default="true" id="863d0d0b-c69d-4aae-a049-b17f31166ef6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Comments.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Comments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/IDatabaseActions.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/IDatabaseActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Restaurants.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Restaurants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java" afterPath="$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentationlayer/src/main/webapp/servlet.jsp" afterPath="$PROJECT_DIR$/presentationlayer/src/main/webapp/servlet.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/restAPI/target/" />
@@ -50,9 +59,11 @@
       <file leaf-file-name="MiquelServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/MiquelServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +71,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-661">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="-202">
+              <caret line="98" column="76" lean-forward="false" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -70,8 +81,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="2" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="2" />
+            <state relative-caret-position="-117">
+              <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -80,26 +91,9 @@
       <file leaf-file-name="servlet.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/servlet.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="124" column="20" lean-forward="false" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+            <state relative-caret-position="-1428">
+              <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-                <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-                <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-                <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-                <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -117,6 +111,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>surtir</find>
+      <find>cercar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,12 +129,15 @@
         <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/User.java" />
         <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbe5a8c5-0ffc-430d-9a2b-b90b9d7df54e/console.sql" />
         <option value="$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/servlet.jsp" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Comments.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/IDatabaseActions.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Restaurants.java" />
+        <option value="$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -171,9 +169,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="1124" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -192,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,110 +198,13 @@
               <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="projectzero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectzero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServeraJuliaMiquel-Task-9.2" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,14 +507,15 @@
       <workItem from="1517846964770" duration="5240000" />
       <workItem from="1518023329079" duration="5785000" />
       <workItem from="1518200791628" duration="2481000" />
+      <workItem from="1518452302545" duration="2668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31103000" />
+    <option name="totallyTimeSpent" value="33771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -624,12 +527,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20608108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26532888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08971553" sideWeight="0.721875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20522387" sideWeight="0.721875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20149253" sideWeight="0.278125" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6750547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -660,58 +563,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbe5a8c5-0ffc-430d-9a2b-b90b9d7df54e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/MiquelServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,11 +579,11 @@
           <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
           </folding>
         </state>
       </provider>
@@ -789,7 +647,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,11 +714,11 @@
           <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
           </folding>
         </state>
       </provider>
@@ -867,7 +727,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,11 +739,11 @@
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
           </folding>
         </state>
       </provider>
@@ -1005,42 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="17" column="119" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/MiquelServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbe5a8c5-0ffc-430d-9a2b-b90b9d7df54e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,41 +882,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="17" column="119" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Comments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/HashSHA256.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/IDatabaseActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/Restaurants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518029728280" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
-            <marker date="1518029728280" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1184" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1195" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1215" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1223" ph="SELECT * FRO... USUARIS" />
+            <marker date="1518454418337" expanded="true" signature="1144:1226" ph="SELECT * FRO... USUARIS" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="2" />
+        <state relative-caret-position="323">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/ReviewItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/iesemilidarder/projectzero/DBObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/iesemilidarder/projectzero/web/MiquelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="-202">
+          <caret line="98" column="76" lean-forward="false" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/webapp/servlet.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="124" column="20" lean-forward="false" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+        <state relative-caret-position="-1428">
+          <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
           <folding />
         </state>
       </provider>

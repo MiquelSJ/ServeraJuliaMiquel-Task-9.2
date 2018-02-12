@@ -23,3 +23,5 @@ public class HashSHA256 {
 
 
 }
+
+//Classe per encriptar/desencriptar els passwords

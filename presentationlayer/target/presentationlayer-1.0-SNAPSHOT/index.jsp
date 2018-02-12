@@ -37,8 +37,11 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.jsp">Inici<span class="sr-only">(current)</span></a>
             </li>
+
+
+
             <li class="nav-item active">
-                <a class="nav-link" href="login.jsp">
+                <a class="nav-link">
                     <%
                         String nomUsuari = (String) session.getAttribute("usuari");
                         if (session.getAttribute("usuari")!=null){
@@ -50,9 +53,25 @@
                     <span class="sr-only">(current)</span></a>
             </li>
 
-            <li class="nav-item active">
-                <a class="nav-link" href="login.jsp?surtir=si">Surtir<span class="sr-only">(current)</span></a>
-            </li>
+            <%
+                String usuari = (String) session.getAttribute("usuari");
+                if (session.getAttribute("usuari") != null){
+                    out.println(" <li class=\"nav-item active\">\n" +
+                            "                <a class=\"nav-link\" href=\"login.jsp?surtir=si\">Surtir<span class=\"sr-only\">(current)</span></a>\n" +
+                            "            </li>");
+
+                }
+
+                else{
+
+                    out.println("<li class=\"nav-item active\">\n" +
+                            "                <a class=\"nav-link\" href=\"login.jsp\">Login<span class=\"sr-only\">(current)</span></a>\n" +
+                            "            </li>");
+
+                }
+
+
+            %>
 
         </ul>
 

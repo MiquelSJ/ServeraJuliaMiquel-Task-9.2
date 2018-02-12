@@ -27,7 +27,7 @@
 </head>
 
 <body>
-
+//Per invalidar una sessió d'un usuari, si pitja "surtir" surt de la sessió i torna a la pàgina del login
 <%
     String surtir = request.getParameter("surtir");
 
@@ -46,9 +46,6 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="index.jsp">Inici <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

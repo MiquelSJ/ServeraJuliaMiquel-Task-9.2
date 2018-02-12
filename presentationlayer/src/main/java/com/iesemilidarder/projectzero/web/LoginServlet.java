@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
 
             PreparedStatement Ps1=con.prepareStatement("SELECT * FROM USUARIS WHERE USU_CODI = '"+usuari+"'AND USU_PASSWORD = '"+xifrat+"'");
             ResultSet resultSet = Ps1.executeQuery();
-
+            //Per a que el login agafi l'usuari i el password
             if (resultSet.next()){
                 HttpSession ses = request.getSession(true);
                 ses.setAttribute("usuari",usuari);

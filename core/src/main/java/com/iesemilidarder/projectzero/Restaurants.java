@@ -1,7 +1,7 @@
 package com.iesemilidarder.projectzero;
 
 
-//Classe publica de restaurant amb els seus atributs
+//Classe de restaurant amb els seus atributs
 public class Restaurants {
     private String name;
     private String address;

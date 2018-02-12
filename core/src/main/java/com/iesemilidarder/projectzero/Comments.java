@@ -43,3 +43,5 @@ public class Comments {
     }
 
 }
+
+//Classe amb els getters i setters per mostrar els comentaris

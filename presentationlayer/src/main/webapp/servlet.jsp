@@ -25,7 +25,7 @@
 
 </head>
 <body>
-
+//Per invalidar una sessió d'un usuari, si pitja "surtir" surt de la sessió i torna a la pàgina del login
     <%
     String surtir = request.getParameter("surtir");
 
@@ -77,6 +77,7 @@
     <div class="container">
 
            <%
+               //Mostra la informació del restaurant
                Restaurants rest = (Restaurants) request.getAttribute("restaurant");
 
 
@@ -115,7 +116,7 @@
                     "<br>"
             );
 
-
+            //Per mostrar els comentaris
             DBHelper dbHelper = new DBHelper();
             List<Comments> arrayComments = dbHelper.getComments(request.getParameter("id"));
             Iterator itr = arrayComments.iterator();

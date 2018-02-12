@@ -37,8 +37,12 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.jsp">Inici<span class="sr-only">(current)</span></a>
             </li>
+
+
+
             <li class="nav-item active">
-                <a class="nav-link" href="login.jsp">
+                <a class="nav-link">
+                    //Quan entres amb un usuari mostra el nom de l'usuari p.e. "Hola jose"
                     <%
                         String nomUsuari = (String) session.getAttribute("usuari");
                         if (session.getAttribute("usuari")!=null){
@@ -49,10 +53,26 @@
 
                     <span class="sr-only">(current)</span></a>
             </li>
+            // if/else per si estas logeat surti un boto "surtir" per deslogearte i anar cap la pàgina de login, si no estas logeat surt un boto "login" per anar a la pàgina de login
+            <%
+                String usuari = (String) session.getAttribute("usuari");
+                if (session.getAttribute("usuari") != null){
+                    out.println(" <li class=\"nav-item active\">\n" +
+                            "                <a class=\"nav-link\" href=\"login.jsp?surtir=si\">Surtir<span class=\"sr-only\">(current)</span></a>\n" +
+                            "            </li>");
 
-            <li class="nav-item active">
-                <a class="nav-link" href="login.jsp?surtir=si">Surtir<span class="sr-only">(current)</span></a>
-            </li>
+                }
+
+                else{
+
+                    out.println("<li class=\"nav-item active\">\n" +
+                            "                <a class=\"nav-link\" href=\"login.jsp\">Login<span class=\"sr-only\">(current)</span></a>\n" +
+                            "            </li>");
+
+                }
+
+
+            %>
 
         </ul>
 
@@ -76,9 +96,8 @@
     </div>
 
     <div class="container">
+        //Mostra la informació dels restaurants quan els cerques al cercador
             <%
-
-
             DBHelper dbHelper = new DBHelper();
             List<Restaurants> arrayRestaurants = dbHelper.getRestaurants(request.getParameter("cerca"));
             Iterator itr = arrayRestaurants.iterator();
